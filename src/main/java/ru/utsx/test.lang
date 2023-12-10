@@ -1,0 +1,6 @@
+begin
+   init INT a = 10
+   init STRING b = "string"
+   init STRING c = "string2"
+   dev b on c
+end
