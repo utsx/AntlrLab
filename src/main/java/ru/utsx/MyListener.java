@@ -40,7 +40,7 @@ public class MyListener extends langBaseListener {
         Value value = returnMapElem(prevName);
         Value buffer = returnMapElem(newName);
         if(!value.getClass().equals(buffer.getClass())){
-            throw new UnsupportedOperationException("Can't cast " + value.getClass() + "to" + buffer.getClass() + "\n");
+            throw new UnsupportedOperationException("Can't cast " + value.getClass() + " to " + buffer.getClass() + "\n");
         }
         buffer.setValue(value.getValue());
     }
